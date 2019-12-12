@@ -302,6 +302,10 @@
 .answer_button{
   font-size: 1.8vh;
 }
+
+.final, .final_second{
+  font-size: 2vh;
+}
 }
 
 @media (max-width : 1200px) {
