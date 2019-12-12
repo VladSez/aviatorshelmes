@@ -275,7 +275,7 @@
 
 .final {
   /* margin: 10px 35px -17px 34px !important; */
-  font-size: 3vh !important;
+  font-size: 3vh;
 }
 .final_second {
   /* margin: 0px 35px -17px 34px; */
@@ -304,7 +304,7 @@
 }
 
 .final, .final_second{
-  font-size: 2vh;
+  font-size: 2.5vh;
 }
 }
 
