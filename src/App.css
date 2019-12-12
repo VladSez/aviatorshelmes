@@ -217,6 +217,7 @@
 .answers_container {
   display: flex;
   flex-direction: column;
+  width:100%;
 }
 
 .hexagon {
@@ -336,6 +337,42 @@
 
 @media (max-width : 860px) {
 
+  .questions{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    overflow: hidden;
+    background-position: 0% 100%;
+    height: 30%;
+    background:none;
+    align-items: center;
+    border: 1px solid #43b5a2;
+    border-radius: 1%;
+    color:#fafafa;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  .quesions_text{
+    font-size: 2vh;
+    display: flex;
+    padding: 0 0 0 10px;
+    align-items: center;
+    width: 80%;
+    text-align: justify;
+  }
+  .logo_arts{
+      display: none;
+    }
+  .questions_answers{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hidden{
+    display: none !important;
+  }
+
   .start_screen{
     width:100%;
   }
@@ -347,6 +384,20 @@
   }
   .start_screen__container{
     height: auto;
+    display: flex;
+    width: auto;
+  }
+  .all_info{
+    width:90%;
+    padding: 5%;
+    height: 60%;
+  }
+  .final_info{
+    height: 65%;
+    width: 90%;
+  }
+  .final,.final_second{
+    font-size: 2.5vh;
   }
   .main_start__container{
     background-size: cover;
@@ -356,5 +407,17 @@
   }
   .logo_img{
     height:20%;
+  }
+  .answer_button{
+    font-size: 1.7vh;
+    background:none;
+    display: flex;
+    flex-wrap: wrap;
+    white-space: normal;
+    width: 80%;
+    height: 100px;
+  }
+  .answer_item{
+    justify-content: center;
   }
 }
