@@ -333,3 +333,28 @@
     margin-top: 35%;
   }
 }
+
+@media (max-width : 860px) {
+
+  .start_screen{
+    width:100%;
+  }
+  .start_screen__text{
+    font-size: 1.9vh;
+  }
+  .start_screen__button{
+    font-size: 1.7vh;
+  }
+  .start_screen__container{
+    height: auto;
+  }
+  .main_start__container{
+    background-size: cover;
+    overflow-y: hidden;
+    height: 100vh;
+    background-position: 30%;
+  }
+  .logo_img{
+    height:20%;
+  }
+}
