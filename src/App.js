@@ -12,12 +12,11 @@ function App() {
   const [count, setCount] = useState(0);
   const [answerValue, setAnswerValue] = useState(0);
   const [sex, getSex] = useState(null);
+  const [hidden, changeHidden] = useState('hidden');
   // const [finalText, changeFinalText] = useState('');
   const nextQuestion = (e) => {
-    console.log(count);
     const newCount = count + 1;
     const newAnswerValue = answerValue + +e;
-    console.log(newAnswerValue);
     setCount(newCount);
     setAnswerValue(newAnswerValue);
   };
@@ -28,8 +27,8 @@ function App() {
   if (count < 10) {
     return (
       <div className="question_container">
-        <StartScreen getSex={getSex} />
-        <div className="logo_arts">
+        <StartScreen getSex={getSex} changeHidden={changeHidden} />
+        <div className={`logo_arts ${hidden}`}>
           <i className="main_logo" />
           <div className="all_info">
             <i
@@ -38,11 +37,11 @@ function App() {
             />
           </div>
         </div>
-        <div className="questions_answers">
+        <div className={`questions_answers ${hidden}`}>
           <div className="questions">{questions(count, sex)}</div>
           <div className="answers_container">
             <div className="answer_item">
-              <p className="hexagon" />
+              <p className="hexagon"><p className="answer_letter"> A.</p></p>
               <input
                 type="submit"
                 className="answer_button"
@@ -56,7 +55,8 @@ function App() {
               />
             </div>
             <div className="answer_item">
-              <p className="hexagon" />
+              <p className="hexagon"><p className="answer_letter">B.</p></p>
+
               <input
                 type="submit"
                 className="answer_button"
@@ -70,7 +70,8 @@ function App() {
               />
             </div>
             <div className="answer_item">
-              <p className="hexagon" />
+              <p className="hexagon"><p className="answer_letter">C.</p></p>
+
               <input
                 type="submit"
                 className="answer_button"
@@ -84,7 +85,8 @@ function App() {
               />
             </div>
             <div className="answer_item">
-              <p className="hexagon" />
+              <p className="hexagon"><p className="answer_letter">D.</p></p>
+
               <input
                 type="submit"
                 className="answer_button"
@@ -114,7 +116,7 @@ function App() {
   } else if (answerValue > 5 && answerValue <= 20) {
     recommendations = sex === 'male'
       ? 'Давно думал, куда бы надеть висящий в шкафу темный пиджак с широкими плечами? Как раз настало время для него! Дополняй образ шляпой джентльмена и подтяжками. А что на счет прически? Зачесывай волосы назад, особенно если от природы они волнистые. Так уж ты точно покоришь всех!'
-      : 'Ни для кого не секрет, что мода циклична. Так что этим вечером ты точно будешь чувствовать себя в своей тарелке! Надевай платье длины «миди», желательно, чтоб оно подчеркивало талию, не сковывало движение, а может и вовсе свободного кроя. Дополняй образ невысоким каблуком и естественным макияжем.';
+      : 'Ни для кого не секрет, что мода циклична. Так что этим вечером ты точно будешь чувствовать себя в своей тарелке! Надевай платье длины «миди», желательно, чтобы оно подчеркивало талию, не сковывало движение, а может и вовсе свободного кроя. Дополняй образ невысоким каблуком и естественным макияжем.';
     finalWords = sex === 'male'
       ? 'Ты любишь эпоху 30-х, и кое-что о ней слышал, но нет предела совершенству. Приглашаю тебя на мою вечеринку после нее ты наверняка будешь знать все об изысканных нарядах, старом кино и развлечениях!'
       : 'Ты любишь эпоху 30-х, и кое-что о ней слышалa, но нет предела совершенству. Приглашаю тебя на мою вечеринку после нее ты наверняка будешь знать все об изысканных нарядах, старом кино и развлечениях!';
@@ -139,8 +141,8 @@ function App() {
         <i className="logo_img" />
         <div className="all_info ">
           <div className="start_screen__container final_info">
-            <p className="start_screen__text">{finalWords}</p>
-            <p className="start_screen__text recommendations">
+            <p className="start_screen__text final">{finalWords}</p>
+            <p className="start_screen__text final_second recommendations">
               {recommendations}
             </p>
           </div>
