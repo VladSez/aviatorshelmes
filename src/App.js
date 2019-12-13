@@ -41,7 +41,7 @@ function App() {
           <div className="questions">{questions(count, sex)}</div>
           <div className="answers_container">
             <div className="answer_item">
-              <p className="hexagon"><p className="answer_letter"> A.</p></p>
+              <p className="hexagon"><p className="answer_letter"> A</p></p>
               <input
                 type="submit"
                 className="answer_button"
@@ -55,7 +55,7 @@ function App() {
               />
             </div>
             <div className="answer_item">
-              <p className="hexagon"><p className="answer_letter">B.</p></p>
+              <p className="hexagon"><p className="answer_letter">B</p></p>
 
               <input
                 type="submit"
@@ -70,7 +70,7 @@ function App() {
               />
             </div>
             <div className="answer_item">
-              <p className="hexagon"><p className="answer_letter">C.</p></p>
+              <p className="hexagon"><p className="answer_letter">C</p></p>
 
               <input
                 type="submit"
@@ -85,7 +85,7 @@ function App() {
               />
             </div>
             <div className="answer_item">
-              <p className="hexagon"><p className="answer_letter">D.</p></p>
+              <p className="hexagon"><p className="answer_letter">D</p></p>
 
               <input
                 type="submit"
