@@ -390,7 +390,7 @@
   .all_info{
     width:90%;
     padding: 5%;
-    height: 60%;
+    height: auto;
   }
   .final_info{
     height: 65%;
