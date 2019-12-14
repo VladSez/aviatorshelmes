@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/aviatorshelmes/static/css/main.d15649da.chunk.css",
+    "main.js": "/aviatorshelmes/static/js/main.8cd515b9.chunk.js",
+    "main.js.map": "/aviatorshelmes/static/js/main.8cd515b9.chunk.js.map",
+    "runtime-main.js": "/aviatorshelmes/static/js/runtime-main.b45614a9.js",
+    "runtime-main.js.map": "/aviatorshelmes/static/js/runtime-main.b45614a9.js.map",
+    "static/js/2.173f6eee.chunk.js": "/aviatorshelmes/static/js/2.173f6eee.chunk.js",
+    "static/js/2.173f6eee.chunk.js.map": "/aviatorshelmes/static/js/2.173f6eee.chunk.js.map",
+    "index.html": "/aviatorshelmes/index.html",
+    "precache-manifest.12367f4a4f55cc5edb6a0160d3286164.js": "/aviatorshelmes/precache-manifest.12367f4a4f55cc5edb6a0160d3286164.js",
+    "service-worker.js": "/aviatorshelmes/service-worker.js",
+    "static/css/main.d15649da.chunk.css.map": "/aviatorshelmes/static/css/main.d15649da.chunk.css.map",
+    "static/media/1.png": "/aviatorshelmes/static/media/1.a7f1d5d3.png",
+    "static/media/10.png": "/aviatorshelmes/static/media/10.fa64f32b.png",
+    "static/media/2.png": "/aviatorshelmes/static/media/2.bd0ba8db.png",
+    "static/media/3.png": "/aviatorshelmes/static/media/3.4ed5f873.png",
+    "static/media/4.png": "/aviatorshelmes/static/media/4.ac37d068.png",
+    "static/media/5.png": "/aviatorshelmes/static/media/5.4c19f18b.png",
+    "static/media/6.png": "/aviatorshelmes/static/media/6.6e1ed652.png",
+    "static/media/7.png": "/aviatorshelmes/static/media/7.c557255e.png",
+    "static/media/8.png": "/aviatorshelmes/static/media/8.eb460f3c.png",
+    "static/media/9.png": "/aviatorshelmes/static/media/9.c6171f97.png",
+    "static/media/App.css": "/aviatorshelmes/static/media/Stolzl-Regular.4e85d39c.otf",
+    "static/media/background.png": "/aviatorshelmes/static/media/background.9ed48667.png",
+    "static/media/elements@1X.png": "/aviatorshelmes/static/media/elements@1X.95f19daf.png",
+    "static/media/final_backpng.png": "/aviatorshelmes/static/media/final_backpng.8e5e500a.png",
+    "static/media/logo.png": "/aviatorshelmes/static/media/logo.c9139d95.png",
+    "static/media/main_logo.png": "/aviatorshelmes/static/media/main_logo.9e340471.png",
+    "static/media/plane.png": "/aviatorshelmes/static/media/plane.2b483a80.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b45614a9.js",
+    "static/js/2.173f6eee.chunk.js",
+    "static/css/main.d15649da.chunk.css",
+    "static/js/main.8cd515b9.chunk.js"
+  ]
+}
